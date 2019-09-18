@@ -205,7 +205,10 @@ background-color: #f73859;
   #title {
     text-align: center;
   }
-
+.container-fluid
+{
+  padding: 3% 1%;
+}
   .title-image {
     position: static;
     transform: rotate(0);
