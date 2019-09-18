@@ -88,12 +88,12 @@ font-weight:bold;
 .icon {
   color: #f73859;
   padding-bottom: 1rem;
-     transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
 }
 
 .icon:hover {
-  color: #252525;
-  transform:scale3d(2,2,2);
+  color: #ff0000;
+    transform:scale3d(2,2,2);
 }
 
 /* testimonials */
@@ -101,7 +101,9 @@ font-weight:bold;
   text-align: center;
   background-color: #f73859;
   color: #fff;
-  padding:5%;
+  padding: 5% 0;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .imagetestimonials {
