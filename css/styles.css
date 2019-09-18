@@ -88,10 +88,12 @@ font-weight:bold;
 .icon {
   color: #f73859;
   padding-bottom: 1rem;
+     transform: scale3d(1, 1, 1);
 }
 
 .icon:hover {
-  color: #ff0000;
+  color: #252525;
+  transform:scale3d(2,2,2);
 }
 
 /* testimonials */
