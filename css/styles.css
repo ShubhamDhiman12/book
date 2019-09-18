@@ -141,7 +141,7 @@ font-weight:bold;
 #footer {
   padding: 7% 15%;
   text-align: center;
-  background-color: #f73859;
+  background-color: #FFF;
 }
 
 .social {
@@ -185,12 +185,15 @@ font-weight:bold;
 }
 .socialicon
 {
-color: #FFF;
+color: #f73859;
+height: 1.5rem;
+width: 1.5rem;
  transform: scale3d(1, 1, 1);
 }
 .socialicon:hover
 {
-  color: #FFF;
+color: #FFF;
+background-color: #f73859;
   transform:scale3d(2,2,2);
 }
 
